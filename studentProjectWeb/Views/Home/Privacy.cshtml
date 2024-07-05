@@ -1,0 +1,101 @@
+﻿@{
+    ViewData["Title"] = "Odyssey of Achievers";
+}
+
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<style>
+    body {
+        font-family: 'Open Sans', sans-serif;
+        background-color: #f8f9fa;
+        color: #212529;
+        overflow-y: auto; /* Ensure content is scrollable */
+    }
+
+    .card {
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition for hover effect */
+    }
+
+        .card:hover {
+            transform: translateY(-5px); /* Slightly raise the card on hover */
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2); /* Add shadow effect on hover */
+        }
+
+    .card-body.highlight {
+        background-color: #f9e79f;
+        border-radius: 5px;
+    }
+
+    .challenge-title, .step-title {
+        color: #34495e;
+    }
+
+    .contact {
+        color: #d35400;
+    }
+
+    .hashtag {
+        color: #27ae60;
+    }
+</style>
+
+<div class="container mt-5">
+    <h1 class="text-center">@ViewData["Title"]</h1>
+    <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card my-3">
+                <div class="card-body">
+                    <p class="challenge-title">Welcome to the Odyssey of Achievers 30-Day Challenge...</p>
+                </div>
+            </div>
+        </div>
+    </div> <!-- Closing row div -->
+    <div class="card my-3">
+        <div class="card-body highlight">
+            <p><strong>To Participate in the Challenge:</strong></p>
+            <ol>
+                <li class="step-title">
+                    <strong>Join the Challenge:</strong>
+                    <ul>
+                        <li>Comment “Challenge Accepted” on this post to officially join the challenge.</li>
+                        <li>Choose a specific area you want to focus on for the next 30 days. This could be coding, writing novels, reading books, physical exercise, or any other field of your interest.</li>
+                        <li>Before starting the challenge, write a proper email to <a href="mailto:itclub@hsmonline.edu.np" class="contact">itclub@hsmonline.edu.np</a> detailing your chosen domain and the challenges you plan to undertake. Once your challenges are verified, you can begin.</li>
+                    </ul>
+                </li>
+                <!-- Placeholder for other list items -->
+            </ol>
+        </div>
+    </div> <!-- Closing card div -->
+
+    <!-- Placeholder for Monitoring and Support section -->
+    <div class="card my-3">
+        <div class="card-body highlight">
+            <p><strong>Monitoring and Support:</strong></p>
+            <p>
+                The IT Club of HSMSS will monitor the progress of all participants. Feel free to reach out if you need any guidance or support during the challenge.
+                Encourage and support your fellow challengers by engaging with their posts and sharing your insights.
+            </p>
+        </div>
+    </div>
+    <!-- Placeholder for Rewards section -->
+    <div class="card my-3">
+        <div class="card-body highlight">
+            <p><strong>Rewards:</strong></p>
+            <ul>
+                <li><strong>Certificate of Appreciation:</strong> All participants who complete the challenge will receive a certificate from the IT Club of HSMSS.</li>
+                <li><strong>Amazing Gift Hampers:</strong> Standout participants who show exceptional dedication and progress will receive special gift hampers.</li>
+            </ul>
+        </div>
+    </div>
+    <!-- Placeholder for Are You Ready? section -->
+
+    <div class="card mb-100px">
+        <div class="card-body">
+            <p class="challenge-title"><strong>Are You Ready?</strong></p>
+            <p>
+                Are you ready to take on the challenge and upgrade your level day by day? Join us on this exciting journey and become part of the Odyssey of Achievers!
+            </p>
+            <p class="hashtag">#HSMSSNEXUS #Odyssey30</p>
+        </div>
+    </div>
+
+</div> <!-- Closing container div -->
