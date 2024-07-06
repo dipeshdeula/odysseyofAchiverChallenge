@@ -69,6 +69,21 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">About</a>
                         </li>
 
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Students" asp-action="Challenge">Challenge Details</a>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Students" asp-action="HallOfFame">Hall Of Fame</a>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Students" asp-action="Contact">Contact</a>
+                        </li>
+
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Students" asp-action="List">All Students</a>
                         </li>
@@ -83,9 +98,9 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="border-top footer text-muted bg-light text-center py-4">
         <div class="container">
-            &copy; 2024 - OdysseyOfAchievers - <a asp-area="" asp-controller="Home" asp-action="Privacy">About</a>
+            &copy; 2024 - OdysseyOfAchievers - <a asp-area="" asp-controller="Home" asp-action="Privacy">About</a>&nbsp;&nbsp;Contact us at <i class="fab fa-mail"></i>itclub@hsmonline.edu.np | Follow us on social media <a href="https://www.facebook.com/profile.php?id=100070297141841"><i class="fab fa-facebook"></i></a></p>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
@@ -94,3 +109,4 @@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
